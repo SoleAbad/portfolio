@@ -2,25 +2,32 @@ body {
   margin: 0;
   font-family: 'Work Sans', sans-serif;
   color: #1A1919;
-  background-color: #FEFAFC;
+  background-color: #ffffff;
 }
 
-.container-fluid {
-  width: 100%
-}
 
 .container.proyectos {
-  width: 65vw;
+  width: 70vw;
+}
+
+.presentation {
+    background-image: url("../images/home.png"); 
+    height: 90vh;
+    min-height: 30em;
+    max-height: 90em;
+    padding-left: 56px;
 }
 
 header {
-  text-align: right;
   padding-top: 22px;
   padding-bottom: 22px;
-  background: #FEFAFC;
-  width: 100%;
+  background: #ffffff;
   position: fixed;
   z-index: 100;
+}
+
+.soledadabad {
+  float: left;
 }
 
 ul {
@@ -32,6 +39,7 @@ ul {
   margin-right: 34px;
   list-style-type: none;
   font-size: 18px;
+  text-align: right;
 }
 
 li:hover {
@@ -40,15 +48,10 @@ li:hover {
 
 .menu a {
   font-size: 18px;
-  color: #F23B90;
+  color: #BE0D0D;
   text-decoration: none;
 }
 
-
-.presentation {
-  text-align: center;
-  height: 100vh;
-}
 
 h1 {
   font-size: 48px;
@@ -70,35 +73,17 @@ a:hover {
   text-decoration: none;
 }
 
-.enlace-proyectos p {
-  margin-top: 96px; 
-  margin-bottom: 33px;
-  text-decoration: none;
-  color: #1A1919;
-}
 
-.enlace-proyectos:hover p{
-  color: #F23B90;
-}
-
-.enlace-proyectos img {
-  margin-bottom: 112px;
-}
 
 .proyectos {
-  padding-top: 112px;
-  padding-bottom: 112px;
-  background-color: #FDA8D0;
+  background-color: #BF4141;
+  color: #ffffff;
 }
 
 h3 {
   font-size: 24px;
-  margin-top: 36px;
 }
 
-.row.justify-content-between+.row.justify-content-between {
-  margin-top: 208px;
-}
 
 .col-lg-6 {
   padding-top: 16px;
@@ -109,16 +94,22 @@ h3 {
   margin-bottom: 32px;
 }
 
-.proyector, .abc{
+.proyector, .abc, .docin{
   margin-top: 40px;
 }
 
+.justify-content-between{
+  padding-top: 56px; 
+}
+
+
 button {
   font-size: 18px;
-  border: 2px solid #1A1919;
+  border: 2px solid #ffffff;
   border-radius: 4px;
-  background-color: #FDA8D0;
-  margin: 16px 32px 16px 0;  
+  background-color: #BF4141;
+  margin: 16px 32px 16px 0; 
+  color: #ffffff; 
 }
 
 button:hover {
@@ -131,8 +122,8 @@ button:active {
 
 
 .contacto {
-  padding-top: 160px;
-  padding-bottom: 160px;
+  padding-bottom: 56px;
+  padding-top: 16px;
 }
 
 .proyectos .col-lg-7 {
@@ -140,7 +131,8 @@ button:active {
 }
 
 .container-fluid.datos {
-  background-color: #FDA8D0;
+  background-color: #BF4141;
+  color: #ffffff;
 }
 
 .datos {
@@ -163,7 +155,12 @@ button:active {
 
 
 .copy {
-  color: #FEFAFC;
+  color: #ffffff;
   text-align: center;
   margin-top: 44px;
+}
+
+.twitter, .medium, .linkedin {
+  width: 40px;
+  padding: 8px;
 }
