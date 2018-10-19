@@ -16,6 +16,7 @@ body {
     min-height: 30em;
     max-height: 90em;
     padding-left: 56px;
+    width: 100vw;
 }
 
 header {
@@ -98,7 +99,7 @@ h3 {
   margin-top: 40px;
 }
 
-.justify-content-between{
+.justify-content-between.proyectos{
   padding-top: 56px; 
 }
 
@@ -122,8 +123,11 @@ button:active {
 
 
 .contacto {
-  padding-bottom: 56px;
-  padding-top: 16px;
+  padding: 56px; 
+}
+
+.col-lg-7.text {
+  padding: 16px; 
 }
 
 .proyectos .col-lg-7 {
@@ -143,6 +147,9 @@ button:active {
   padding-bottom: 16px;
 }
 
+.col-lg-4 {
+  padding-top: 32px;
+}
 
 .col-lg-3 p {
   margin-bottom: 4px;
