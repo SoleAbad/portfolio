@@ -171,3 +171,7 @@ button:active {
   width: 40px;
   padding: 8px;
 }
+
+.col-lg-4.col-lg-5 {
+  align-content: center;  
+}
