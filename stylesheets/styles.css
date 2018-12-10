@@ -16,6 +16,7 @@ body {
     min-height: 30em;
     max-height: 90em;
     padding-left: 56px;
+    width: 100vw;
 }
 
 header {
@@ -98,7 +99,7 @@ h3 {
   margin-top: 40px;
 }
 
-.justify-content-between{
+.justify-content-between.proyectos{
   padding-top: 56px; 
 }
 
@@ -110,6 +111,7 @@ button {
   background-color: #BF4141;
   margin: 16px 32px 16px 0; 
   color: #ffffff; 
+  padding: 10px;
 }
 
 button:hover {
@@ -122,8 +124,11 @@ button:active {
 
 
 .contacto {
-  padding-bottom: 56px;
-  padding-top: 16px;
+  padding: 56px; 
+}
+
+.col-lg-7.text {
+  padding: 16px; 
 }
 
 .proyectos .col-lg-7 {
@@ -143,6 +148,9 @@ button:active {
   padding-bottom: 16px;
 }
 
+.col-lg-4 {
+  padding-top: 32px;
+}
 
 .col-lg-3 p {
   margin-bottom: 4px;
@@ -163,4 +171,8 @@ button:active {
 .twitter, .medium, .linkedin {
   width: 40px;
   padding: 8px;
+}
+
+.col-lg-4.col-lg-5 {
+  align-content: center;  
 }
